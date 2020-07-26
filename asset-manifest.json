@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.8276e2ed.chunk.css",
-    "main.js": "/static/js/main.b3683f1f.chunk.js",
-    "main.js.map": "/static/js/main.b3683f1f.chunk.js.map",
+    "main.css": "/static/css/main.2297279b.chunk.css",
+    "main.js": "/static/js/main.7da69789.chunk.js",
+    "main.js.map": "/static/js/main.7da69789.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
     "static/js/2.7ab3c19b.chunk.js": "/static/js/2.7ab3c19b.chunk.js",
     "static/js/2.7ab3c19b.chunk.js.map": "/static/js/2.7ab3c19b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f511e53f0315050f2e7401e2f36b8a89.js": "/precache-manifest.f511e53f0315050f2e7401e2f36b8a89.js",
+    "precache-manifest.7fb15509d72c4435d842da68ebedead2.js": "/precache-manifest.7fb15509d72c4435d842da68ebedead2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.8276e2ed.chunk.css.map": "/static/css/main.8276e2ed.chunk.css.map",
+    "static/css/main.2297279b.chunk.css.map": "/static/css/main.2297279b.chunk.css.map",
     "static/js/2.7ab3c19b.chunk.js.LICENSE.txt": "/static/js/2.7ab3c19b.chunk.js.LICENSE.txt",
     "static/media/fordhamhacks.png": "/static/media/fordhamhacks.beec5811.png",
     "static/media/mathfest2020.png": "/static/media/mathfest2020.2c13e573.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.9c9c41ef.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.7ab3c19b.chunk.js",
-    "static/css/main.8276e2ed.chunk.css",
-    "static/js/main.b3683f1f.chunk.js"
+    "static/css/main.2297279b.chunk.css",
+    "static/js/main.7da69789.chunk.js"
   ]
 }
