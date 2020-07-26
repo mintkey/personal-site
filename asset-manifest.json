@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8276e2ed.chunk.css",
+    "main.js": "/static/js/main.b3683f1f.chunk.js",
+    "main.js.map": "/static/js/main.b3683f1f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
+    "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
+    "static/js/2.7ab3c19b.chunk.js": "/static/js/2.7ab3c19b.chunk.js",
+    "static/js/2.7ab3c19b.chunk.js.map": "/static/js/2.7ab3c19b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.220a12f63cf748642c36fc7edf1ce92a.js": "/precache-manifest.220a12f63cf748642c36fc7edf1ce92a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.8276e2ed.chunk.css.map": "/static/css/main.8276e2ed.chunk.css.map",
+    "static/js/2.7ab3c19b.chunk.js.LICENSE.txt": "/static/js/2.7ab3c19b.chunk.js.LICENSE.txt",
+    "static/media/fordhamhacks.png": "/static/media/fordhamhacks.beec5811.png",
+    "static/media/mathfest2020.png": "/static/media/mathfest2020.2c13e573.png",
+    "static/media/self-portrait.JPG": "/static/media/self-portrait.e472aa28.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c9c41ef.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.7ab3c19b.chunk.js",
+    "static/css/main.8276e2ed.chunk.css",
+    "static/js/main.b3683f1f.chunk.js"
+  ]
+}
