@@ -1,0 +1,20 @@
+#projects h1 {
+   margin-left: 15%; // hack
+}
+
+.project {
+    display: flex;
+    max-width: 70%;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    font-weight: 500 !important;
+    justify-content: center;
+    align-items: center;
+}

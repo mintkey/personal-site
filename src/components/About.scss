@@ -1,0 +1,17 @@
+#bio {
+    font-size: 1em;
+}
+
+#portrait {
+    display: flex;
+    max-width: 275px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    #portrait { display: none; }
+}
