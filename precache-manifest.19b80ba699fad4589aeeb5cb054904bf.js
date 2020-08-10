@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "362a478f91b1bcee7f82e8a224a6a842",
+    "revision": "7a0b21b839ef8e99eb4a18414939c6c3",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "b0d609e6df7227554338",
+    "revision": "6e82dda4d2ca236d513f",
     "url": "/static/css/main.a5ff7261.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4a3e6e14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0d609e6df7227554338",
-    "url": "/static/js/main.d3d56f69.chunk.js"
+    "revision": "6e82dda4d2ca236d513f",
+    "url": "/static/js/main.75b02802.chunk.js"
   },
   {
     "revision": "766df7dbb5392e1314ed",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mathfest2020.2c13e573.png"
   },
   {
-    "revision": "e3cd872e415f830a9ece497cf45c514b",
-    "url": "/static/media/melo-mockups.e3cd872e.png"
+    "revision": "e95edd9d9e8c2eabbf1a82f1d98a1616",
+    "url": "/static/media/melo-mockups.e95edd9d.png"
   },
   {
     "revision": "88d199cb19a5af9c21ba4ad5671cba8b",
