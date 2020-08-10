@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.2297279b.chunk.css",
-    "main.js": "/static/js/main.7da69789.chunk.js",
-    "main.js.map": "/static/js/main.7da69789.chunk.js.map",
+    "main.css": "/static/css/main.a5ff7261.chunk.css",
+    "main.js": "/static/js/main.d3d56f69.chunk.js",
+    "main.js.map": "/static/js/main.d3d56f69.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.7ab3c19b.chunk.js": "/static/js/2.7ab3c19b.chunk.js",
-    "static/js/2.7ab3c19b.chunk.js.map": "/static/js/2.7ab3c19b.chunk.js.map",
+    "static/js/2.4a3e6e14.chunk.js": "/static/js/2.4a3e6e14.chunk.js",
+    "static/js/2.4a3e6e14.chunk.js.map": "/static/js/2.4a3e6e14.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7fb15509d72c4435d842da68ebedead2.js": "/precache-manifest.7fb15509d72c4435d842da68ebedead2.js",
+    "precache-manifest.62953be5600c0cecd693b575e03b0ffe.js": "/precache-manifest.62953be5600c0cecd693b575e03b0ffe.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.2297279b.chunk.css.map": "/static/css/main.2297279b.chunk.css.map",
-    "static/js/2.7ab3c19b.chunk.js.LICENSE.txt": "/static/js/2.7ab3c19b.chunk.js.LICENSE.txt",
+    "static/css/main.a5ff7261.chunk.css.map": "/static/css/main.a5ff7261.chunk.css.map",
+    "static/js/2.4a3e6e14.chunk.js.LICENSE.txt": "/static/js/2.4a3e6e14.chunk.js.LICENSE.txt",
     "static/media/fordhamhacks.png": "/static/media/fordhamhacks.beec5811.png",
     "static/media/mathfest2020.png": "/static/media/mathfest2020.2c13e573.png",
-    "static/media/self-portrait.JPG": "/static/media/self-portrait.e472aa28.JPG"
+    "static/media/melo-mockups.png": "/static/media/melo-mockups.e3cd872e.png",
+    "static/media/self-portrait.JPG": "/static/media/self-portrait.88d199cb.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.9c9c41ef.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.7ab3c19b.chunk.js",
-    "static/css/main.2297279b.chunk.css",
-    "static/js/main.7da69789.chunk.js"
+    "static/js/2.4a3e6e14.chunk.js",
+    "static/css/main.a5ff7261.chunk.css",
+    "static/js/main.d3d56f69.chunk.js"
   ]
 }
