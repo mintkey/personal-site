@@ -54,32 +54,6 @@ nav {
   }
 }
 
-// .nav li a {
-//   position: relative;
-//   display: block;
-//   padding: 12px 12px;
-//   color: #fff;
-//   opacity: 0.8;
-//   transition: opacity 0.35s ease-in-out;
-// }
-
-// .nav li a:hover {
-//   text-decoration: none;
-//   opacity: 1;
-// }
-
-// .nav li a:before {
-//   content: "";
-//   position: absolute;
-//   right: 100%;
-//   bottom: 8px;
-//   left: 12px;
-//   height: 1px;
-//   background: #fff;
-//   opacity: 0.25;
-//   transition: all 0.35s ease-in-out;
-// }
-
 #footer {
   text-align: center;
   padding-bottom: 1.25em;
@@ -91,8 +65,6 @@ nav {
     li { padding: 0 0.5em; }
   }
 }
-
-
 
 @media (max-width: 768px) {
   #footer #mobile-links {

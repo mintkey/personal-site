@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid} from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import './About.scss';
 import Portrait from '../img/self-portrait.JPG';
 

@@ -1,15 +1,51 @@
-#projects h1 {
-   margin-left: 15%; // hack
-}
-
 .project {
     display: flex;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     margin: 50px auto;
     border-radius: 25px;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transform: scale3d(1,1,1);
+    transition-duration: 0.5s;
+    transition-property: transform;
+  
+    &:hover,
+    &:focus,
+    &:active {
+        transform: scale3d(1.025,1.025,1.025);
+    }
+  }
+
+.project-info {
+    margin: 150px 20px auto auto;
+    padding-left: 20%;
+    text-align: right;
+
+    h2 {
+        padding-bottom: 0.25em;
+        font-weight: 600;
+    }
+
+    ul {
+        li {
+            display: inline-block;
+            margin: 5px;
+            font-size: 0.9em;
+            color: #757575;
+            list-style-type: none; 
+        }
+    }
 }
 
 .link {
@@ -18,3 +54,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .project-info {
+      display: none;
+    }
+  }

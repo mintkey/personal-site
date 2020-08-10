@@ -41,13 +41,13 @@ $primary-color: #3b3b3b;
     transform: scale3d(1,1,1);
     transition-duration: 0.5s;
     transition-property: transform;
-
+  
     &:hover,
     &:focus,
     &:active {
         transform: scale3d(1.2,1.2,1.2);
     }
-}
+  }
 
 @media (max-width: 768px) {
     .links { display: none; }
