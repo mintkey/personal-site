@@ -10,7 +10,7 @@ const Intro = () => {
                 <div id="intro-content">
                     <p>
                         I’m a developer from NY who loves clean user interfaces and is passionate about
-                        improving diversity in the tech world. I’m currently teaching at Girls Who Code.
+                        improving diversity in the tech world. Previously taught at Girls Who Code; currently keeping myself busy in isolation.
                     </p>
                 </div>
             </Container>
