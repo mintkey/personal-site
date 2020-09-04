@@ -2,8 +2,6 @@
 
 This is the second iteration of my website. My first website can be found here: https://hpdempsey.com/
 
-‼️ This website is still in progress ‼️
-
 ![](site-screenshot.png)
 
 ## Installation and setup
