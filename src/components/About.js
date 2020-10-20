@@ -21,10 +21,7 @@ const About = () => {
                         in design, and a not-so-great study abroad semester cemented my desire to help
                         make tech more inclusive. (Imagine being in an 80-person classroom and being 1
                         out of ~7 women.) Before I started programming, I was—and still am—passionate
-                        about music, as I have 15 years of experience playing piano.
-                        <br/><br/>
-                        Some recent technologies I've been using are React, Gatsby, and Jekyll. I'm also
-                        currently getting back into app development by learning SwiftUI.
+                        about music, as I've been playing piano for 15 years.
                         <br/><br/>
                         When I’m not coding, I enjoy video games, photography, traveling, finding new
                         music, and watching home café Instagram videos.

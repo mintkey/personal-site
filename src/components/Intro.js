@@ -15,9 +15,9 @@ const Intro = () => {
                 </h1>
                 <div id="intro-content">
                     <p>
-                        I’m a developer from NY who loves clean user interfaces and is passionate about
-                        improving diversity in the tech world. Recently taught at Girls Who Code;
-                        currently keeping myself busy in isolation.
+                        I’m a developer and designer from NY who loves clean user interfaces. I'm also passionate about
+                        improving diversity in tech and combatting climate change. Recently taught at Girls Who Code;
+                        currently looking for a full-time position!
                     </p>
                 </div>
             </Container>
