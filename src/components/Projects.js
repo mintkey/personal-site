@@ -77,7 +77,7 @@ const Projects = () => {
                         data-aos="fade-up"
                         data-aos-easing="ease-in-out">
                         <h3>
-                            <a href="https://vsco.co/m2nhee/" target="_blank" rel="noopener noreferrer">Photography</a>
+                            <a href="https://vsco.co/helendmp/" target="_blank" rel="noopener noreferrer">Photography</a>
                         </h3>
                     </Grid>
                 </Grid>

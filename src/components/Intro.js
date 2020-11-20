@@ -9,15 +9,16 @@ const Intro = () => {
             data-aos="fade-up"
             data-aos-easing="ease-in-out">
             <Container fixed>
-                <h1 id="intro-heading">Hey there! I'm Helen.&nbsp;<span id="pronouns">
-                        <i>(she/her)</i>
+                <h1 id="intro-heading">Hi! I'm Helen.&nbsp;<span id="pronouns">
+                        (she/her)
                     </span>
                 </h1>
                 <div id="intro-content">
                     <p>
-                        I’m a developer and designer from NY who loves clean user interfaces. I'm also passionate about
-                        improving diversity in tech and combatting climate change. Recently taught at Girls Who Code;
-                        currently looking for a full-time position!
+                        I’m a developer and designer from NY who loves clean user interfaces. I'm passionate about
+                        improving diversity in tech and combatting climate change. Recently taught at Girls Who Code.
+                        <br/><br/>
+                        Currently looking for a full-time role in web and/or design.
                     </p>
                 </div>
             </Container>

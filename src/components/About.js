@@ -16,15 +16,14 @@ const About = () => {
                     data-aos-easing="ease-in-out">
                     <h1>About me</h1>
                     <p id="bio">
-                        I’m a recent graduate of Fordham University with a Bachelor’s in computer
+                        I’m a recent graduate of Fordham University with a B.S. in computer
                         science. A graphic design class I took senior year really solidified my interest
                         in design, and a not-so-great study abroad semester cemented my desire to help
-                        make tech more inclusive. (Imagine being in an 80-person classroom and being 1
-                        out of ~7 women.) Before I started programming, I was—and still am—passionate
-                        about music, as I've been playing piano for 15 years.
+                        make tech more inclusive. Before I started programming, I was—and still am—passionate
+                        about music, as I've been playing piano for 15 years, as well as the flute, guitar, and ukulele.
                         <br/><br/>
-                        When I’m not coding, I enjoy video games, photography, traveling, finding new
-                        music, and watching home café Instagram videos.
+                        When I’m not coding, I enjoy video games, photography, traveling and discovering new
+                        music.
                     </p>
                 </Grid>
                 <Grid

@@ -26,11 +26,6 @@ const Links = () => {
                         <Icon className="hvr-grow" name="twitter" width={25}/>
                     </a>
                 </li>
-                <li>
-                    <a href="https://instagram.com/helendmp/" target="_blank" rel="noopener noreferrer">
-                        <Icon className="hvr-grow" name="instagram" width={25}/>
-                    </a>
-                </li>
             </ul>
         </div>
     )
