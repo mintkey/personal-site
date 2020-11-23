@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4edc45080d14b2c2cba42456194c55c",
+    "revision": "4e4559952b7184cdce2f5b37c9d076d7",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "b038d698e5faf33d959c",
+    "revision": "b4eeb9aed4b4126ba37c",
     "url": "/static/css/main.f83512f7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ee51e64a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b038d698e5faf33d959c",
-    "url": "/static/js/main.afdb65cb.chunk.js"
+    "revision": "b4eeb9aed4b4126ba37c",
+    "url": "/static/js/main.dc10d873.chunk.js"
   },
   {
     "revision": "766df7dbb5392e1314ed",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/melo-mockups.e95edd9d.png"
   },
   {
-    "revision": "d296e3bc090126053fdb3bab78295c42",
-    "url": "/static/media/nanolens-icons.d296e3bc.png"
+    "revision": "df3eda0c3d2d74491adeeab47af3a33c",
+    "url": "/static/media/nanolens-icons.df3eda0c.png"
   },
   {
     "revision": "88d199cb19a5af9c21ba4ad5671cba8b",
