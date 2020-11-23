@@ -22,7 +22,7 @@ const About = () => {
                         make tech more inclusive. Before I started programming, I was—and still am—passionate
                         about music, as I've been playing piano for 15 years, as well as the flute, guitar, and ukulele.
                         <br/><br/>
-                        When I’m not coding, I enjoy video games, photography, traveling and discovering new
+                        When I’m not coding, I enjoy video games, photography, traveling, and discovering new
                         music.
                     </p>
                 </Grid>
