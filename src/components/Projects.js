@@ -4,6 +4,7 @@ import './Projects.scss';
 import FordhamHacks from '../assets/fordhamhacks.png';
 import MathFest2020 from '../assets/mathfest2020.png';
 import Melo from '../assets/melo-mockups.png';
+import Nanolens from '../assets/nanolens-icons.png';
 
 const Projects = () => {
     return (
@@ -11,6 +12,18 @@ const Projects = () => {
             <Container maxWidth="lg">
                 <h1>Projects</h1>
                 <Grid container>
+                <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <div className="project-info">
+                            <h2>Nanolens</h2>
+                            <p>App icon redesigns</p>
+                            <ul className="tools">
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                    </Grid>
+                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <img className="project" src={Nanolens} alt="Nanolens app icons"/>
+                    </Grid>
                     <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <div className="project-info">
                             <h2>MathFest 2020</h2>

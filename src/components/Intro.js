@@ -18,7 +18,7 @@ const Intro = () => {
                         I’m a developer and designer from NY who loves clean user interfaces. I'm passionate about
                         improving diversity in tech and combatting climate change. Recently taught at Girls Who Code.
                         <br/><br/>
-                        Currently looking for a full-time role in web and/or design.
+                        Currently looking for an internship or full-time role in web and/or design.
                     </p>
                 </div>
             </Container>
