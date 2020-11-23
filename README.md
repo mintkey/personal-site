@@ -1,6 +1,6 @@
 # helen-dempsey.com
 
-This is the second iteration of my website. My first website can be found here: https://hpdempsey.com/
+Second iteration of my personal website. First iteration can be found at https://hpdempsey.com/
 
 ![](site-screenshot.png)
 
