@@ -2,7 +2,7 @@
 
 Second iteration of my personal website. First iteration can be found at https://hpdempsey.com/
 
-![](site-screenshot.png)
+![Screenshot preview of website](site-preview.png)
 
 ## Installation and setup
 
