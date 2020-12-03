@@ -49,7 +49,7 @@ const Projects = () => {
                     <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <div className="project-info">
                             <h2>Melo</h2>
-                            <p>UI/UX conceptual design for a music-sharing platform</p>
+                            <p>UI/UX design concept for a music-sharing platform</p>
                             <ul className="tools">
                                 <li>Sketch</li>
                             </ul>
@@ -61,7 +61,7 @@ const Projects = () => {
                     <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <div className="project-info">
                             <h2>MathFest 2020</h2>
-                            <p>Informational registration website for Fordham University's annual MathFest
+                            <p>Website for Fordham University's annual MathFest
                                 event</p>
                             <ul className="tools">
                                 <li>HTML</li>
@@ -85,7 +85,7 @@ const Projects = () => {
                     <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <div className="project-info">
                             <h2>FordhamHacks</h2>
-                            <p>Informational website for Fordham University's first hackathon</p>
+                            <p>Website for Fordham University's first hackathon</p>
                             <ul className="tools">
                                 <li>React</li>
                                 <li>CSS</li>

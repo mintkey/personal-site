@@ -3,11 +3,6 @@ $text-darkmode: #ddd1c3;
 $bg-lightmode: #ddd1c3;
 $bg-darkmode: #080808;
 
-@font-face {
-  font-family: "AppleMyungjo";
-  src: url(../fonts/AppleMyungjo.ttf) format("truetype");
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
 
 .App {
