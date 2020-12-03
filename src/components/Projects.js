@@ -1,10 +1,11 @@
 import React from 'react';
 import {Container, Grid} from '@material-ui/core';
 import './Projects.scss';
+import Nanolens from '../assets/nanolens-icons.png';
+import Caffeinated from '../assets/caffeinated.png';
 import FordhamHacks from '../assets/fordhamhacks.png';
 import MathFest2020 from '../assets/mathfest2020.png';
 import Melo from '../assets/melo-mockups.png';
-import Nanolens from '../assets/nanolens-icons.png';
 
 const Projects = () => {
     return (
@@ -12,7 +13,7 @@ const Projects = () => {
             <Container maxWidth="lg">
                 <h1>Projects</h1>
                 <Grid container>
-                <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
+                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <div className="project-info">
                             <h2>Nanolens</h2>
                             <p>App icon redesigns</p>
@@ -23,6 +24,27 @@ const Projects = () => {
                     </Grid>
                     <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <img className="project" src={Nanolens} alt="Nanolens app icons"/>
+                    </Grid>
+                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <div className="project-info">
+                            <h2>Caffeinated</h2>
+                            <p>SwiftUI app</p>
+                            <ul className="tools">
+                                <li>Sketch</li>
+                                <li>SwiftUI</li>
+                            </ul>
+                        </div>
+                    </Grid>
+                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <a
+                            href="https://github.com/mintkey/Caffeinated"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                className="project hvr-grow"
+                                src={Caffeinated}
+                                alt="Caffeinated iOS app mockups"/>
+                        </a>
                     </Grid>
                     <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <div className="project-info">
