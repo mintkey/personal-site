@@ -1,16 +1,25 @@
-$primary-color: #000;
-$bg-color: #fff;
+$text-lightmode: #000;
+$text-darkmode: #ddd1c3;
+$bg-lightmode: #ddd1c3;
+$bg-darkmode: #080808;
+
+@font-face {
+  font-family: "AppleMyungjo";
+  src: url(../fonts/AppleMyungjo.ttf) format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
 
 .App {
   font-weight: 400;
-  color: $primary-color;
+  color: $text-lightmode;
 
   h1 {
     font-weight: 600;
   }
 
   a {
-    color: $primary-color;
+    color: $text-lightmode;
     text-decoration: none !important;
   }
 }
@@ -24,13 +33,14 @@ $bg-color: #fff;
 header {
   display: flex;
   padding: 10px 5%;
-  background-color: $bg-color;
+  background-color: $bg-lightmode;
   justify-content: space-between;
   align-items: center;
 }
 
 #logo {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Nanum Myeongjo', serif !important;
+  font-weight: 800 !important;
   font-size: 2em;
 }
 
@@ -69,6 +79,36 @@ nav {
 @media (max-width: 768px) {
   #footer #mobile-links {
     display: flex;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .App {
+    color: $text-darkmode;
+    background-color: $bg-darkmode;
+  }
+
+  a {
+    color: $text-darkmode !important;
+  }
+
+  header {
+    background-color: $bg-darkmode;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .App {
+    color: $text-lightmode;
+    background-color: $bg-lightmode;
+  }
+  
+  a {
+    color: $text-lightmode !important;
+  }
+
+  header {
+    background-color: $bg-lightmode;
   }
 }
 

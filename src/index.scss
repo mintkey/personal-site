@@ -1,11 +1,24 @@
+@import url("https://use.typekit.net/woy4mbd.css");
+
 // Base font size property
 html {
   font-size: 14px;
 }
 
 body {
-  font-family: 'Avenir Next', sans-serif !important;
-  font-weight: 400;
+  font-family: stratos-lights, sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-family: orpheuspro, serif !important;
+  font-weight: 500 !important;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

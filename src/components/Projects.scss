@@ -1,3 +1,6 @@
+$gray-lightmode: #757575;
+$gray-darkmode: #afaeae;
+
 .project {
     display: flex;
     max-width: 100%;
@@ -42,7 +45,7 @@
             display: inline-block;
             margin: 5px;
             font-size: 0.9em;
-            color: #757575;
+            color: $gray-lightmode;
             list-style-type: none; 
         }
     }
@@ -60,3 +63,23 @@
       display: none;
     }
   }
+
+@media (prefers-color-scheme: dark) {
+    .project-info {
+        ul {
+            li {
+                color: $gray-darkmode;
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .project-info {
+        ul {
+            li {
+                color: $gray-lightmode;
+            }
+        }
+    }
+}

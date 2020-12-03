@@ -1,3 +1,6 @@
+$gray-lightmode: #757575;
+$gray-darkmode: #afaeae;
+
 #intro-heading {
 	font-size: 2.5em;
 }
@@ -5,10 +8,22 @@
 #pronouns {
 	margin: 0;
 	font-size: 0.45em;
-	color: #cccccc;
+	color: $gray-lightmode;
 }
 
 #intro-content {
 	font-size: 1.25em;
 	padding-right: 40%;
+}
+
+@media (prefers-color-scheme: dark) {
+    #pronouns {
+		color: $gray-darkmode;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+    #pronouns {
+		color: $gray-lightmode;
+	}
 }

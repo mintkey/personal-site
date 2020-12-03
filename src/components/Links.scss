@@ -1,4 +1,4 @@
-$primary-color: #000;
+$primary: #000;
 
 .links {
     position: fixed;
@@ -25,9 +25,9 @@ $primary-color: #000;
         content: '';
         display: block;
         width: 2px;
-        height: 5em;
+        height: 3em;
         margin: 0 auto 0 0.6em;
-        background-color: $primary-color;
+        background-color: $primary;
     }
 }
 
@@ -45,10 +45,24 @@ $primary-color: #000;
     &:hover,
     &:focus,
     &:active {
-        transform: scale3d(1.2,1.2,1.2);
+        transform: scale3d(1.5,1.5,1.5);
     }
   }
 
 @media (max-width: 768px) {
     .links { display: none; }
+}
+
+@media (prefers-color-scheme: dark) {
+    .links {
+        filter: invert(90%) sepia(6%) saturate(492%) hue-rotate(352deg) brightness(95%) contrast(89%);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .links {
+        &::after {
+            background-color: $primary;
+        }
+    }
 }

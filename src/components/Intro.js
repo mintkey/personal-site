@@ -9,7 +9,7 @@ const Intro = () => {
             data-aos="fade-up"
             data-aos-easing="ease-in-out">
             <Container fixed>
-                <h1 id="intro-heading">Hi! I'm Helen.&nbsp;<span id="pronouns">
+                <h1 id="intro-heading">Hi, I'm Helen.&nbsp;<span id="pronouns">
                         (she/her)
                     </span>
                 </h1>

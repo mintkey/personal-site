@@ -3,9 +3,9 @@ import {Container, Grid} from '@material-ui/core';
 import './Projects.scss';
 import Nanolens from '../assets/nanolens-icons.png';
 import Caffeinated from '../assets/caffeinated.png';
-import FordhamHacks from '../assets/fordhamhacks.png';
+import Melo from '../assets/melo.png';
 import MathFest2020 from '../assets/mathfest2020.png';
-import Melo from '../assets/melo-mockups.png';
+import FordhamHacks from '../assets/fordhamhacks.png';
 
 const Projects = () => {
     return (
@@ -45,6 +45,18 @@ const Projects = () => {
                                 src={Caffeinated}
                                 alt="Caffeinated iOS app mockups"/>
                         </a>
+                    </Grid>
+                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <div className="project-info">
+                            <h2>Melo</h2>
+                            <p>UI/UX conceptual design for a music-sharing platform</p>
+                            <ul className="tools">
+                                <li>Sketch</li>
+                            </ul>
+                        </div>
+                    </Grid>
+                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
+                        <img className="project" src={Melo} alt="UI/UX mockups of Melo"/>
                     </Grid>
                     <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
                         <div className="project-info">
@@ -91,18 +103,6 @@ const Projects = () => {
                                 alt="Screenshot of FordhamHacks webpage"/>
                         </a>
                     </Grid>
-                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <div className="project-info">
-                            <h2>Melo</h2>
-                            <p>UI/UX conceptual design for a music-sharing platform</p>
-                            <ul className="tools">
-                                <li>Sketch</li>
-                            </ul>
-                        </div>
-                    </Grid>
-                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <img className="project" src={Melo} alt="UI/UX mockups of Melo"/>
-                    </Grid>
                 </Grid>
                 <Grid container spacing={5}>
                     <Grid
@@ -111,9 +111,9 @@ const Projects = () => {
                         className="link"
                         data-aos="fade-up"
                         data-aos-easing="ease-in-out">
-                        <h3>
-                            <a href="https://vsco.co/helendmp/" target="_blank" rel="noopener noreferrer">Photography</a>
-                        </h3>
+                        <h2>
+                            <a class="hvr-grow" href="https://vsco.co/helendmp/" target="_blank" rel="noopener noreferrer">Photography</a>
+                        </h2>
                     </Grid>
                 </Grid>
             </Container>
