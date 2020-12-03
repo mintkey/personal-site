@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.116a49a3.chunk.css",
-    "main.js": "/static/js/main.89324df1.chunk.js",
-    "main.js.map": "/static/js/main.89324df1.chunk.js.map",
+    "main.css": "/static/css/main.91e50ddf.chunk.css",
+    "main.js": "/static/js/main.bb0821e5.chunk.js",
+    "main.js.map": "/static/js/main.bb0821e5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
     "static/js/2.058183d8.chunk.js": "/static/js/2.058183d8.chunk.js",
     "static/js/2.058183d8.chunk.js.map": "/static/js/2.058183d8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c13fe6082e8524d73f8e9aad4874a4f0.js": "/precache-manifest.c13fe6082e8524d73f8e9aad4874a4f0.js",
+    "precache-manifest.3cee697fc38b9408108704547c1807c9.js": "/precache-manifest.3cee697fc38b9408108704547c1807c9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.116a49a3.chunk.css.map": "/static/css/main.116a49a3.chunk.css.map",
+    "static/css/main.91e50ddf.chunk.css.map": "/static/css/main.91e50ddf.chunk.css.map",
     "static/js/2.058183d8.chunk.js.LICENSE.txt": "/static/js/2.058183d8.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/AppleMyungjo.0ec6bc0e.ttf",
     "static/media/caffeinated.png": "/static/media/caffeinated.302edeac.png",
     "static/media/fordhamhacks.png": "/static/media/fordhamhacks.beec5811.png",
     "static/media/mathfest2020.png": "/static/media/mathfest2020.2c13e573.png",
@@ -26,7 +25,7 @@
     "static/js/runtime-main.9c9c41ef.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.058183d8.chunk.js",
-    "static/css/main.116a49a3.chunk.css",
-    "static/js/main.89324df1.chunk.js"
+    "static/css/main.91e50ddf.chunk.css",
+    "static/js/main.bb0821e5.chunk.js"
   ]
 }
