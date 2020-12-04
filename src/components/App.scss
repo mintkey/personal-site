@@ -90,6 +90,12 @@ nav {
   header {
     background-color: $bg-darkmode;
   }
+
+  #footer {
+    #mobile-links {
+      filter: invert(90%) sepia(6%) saturate(492%) hue-rotate(352deg) brightness(95%) contrast(89%);
+    }
+  }
 }
 
 @media (prefers-color-scheme: light) {

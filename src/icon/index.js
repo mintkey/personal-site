@@ -3,7 +3,6 @@ import Email from './Email';
 import GitHub from './GitHub';
 import LinkedIn from './LinkedIn';
 import Twitter from './Twitter';
-import Instagram from './Instagram';
 
 const Icon = props => {
     switch (props.name) {
@@ -15,9 +14,7 @@ const Icon = props => {
             return <LinkedIn {...props}/>;
         case "twitter":
             return <Twitter {...props}/>;
-        case "instagram":
-            return <Instagram {...props}/>;
-
+            
         default:
             return;
     }

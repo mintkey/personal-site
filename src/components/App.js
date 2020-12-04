@@ -69,14 +69,6 @@ function App() {
                                 <Icon name="twitter" width={25}/>
                             </a>
                         </li>
-                        <li>
-                            <a
-                                href="https://instagram.com/helendmp/"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Icon name="instagram" width={25}/>
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <p>© 2020 Helen Dempsey</p>
