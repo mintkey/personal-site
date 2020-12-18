@@ -15,10 +15,9 @@ const Intro = () => {
                 </h1>
                 <div id="intro-content">
                     <p>
-                        I’m a developer and designer from NY who loves clean user interfaces. I'm passionate about
+                        I’m a developer and designer from NY who loves minimalism and clean user interfaces. I'm passionate about
                         improving diversity in tech and combatting climate change.
                         <br/><br/>
-                        Currently looking for an internship or full-time role in web and/or design. Also available for freelance/contract work.
                     </p>
                 </div>
             </Container>
