@@ -37,7 +37,7 @@ h3 {
 // From: https://www.sassmeister.com/gist/7f22e44ace49b5124eec
 @media (min-width: 320px) {
   html {
-    font-size: calc(14px + 4 * (100vw - 320px) / 1046);
+    font-size: calc(13px + 4 * (100vw - 320px) / 1046);
   }
 }
 
