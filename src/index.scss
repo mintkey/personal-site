@@ -1,12 +1,15 @@
+// Adobe fonts
 @import url("https://use.typekit.net/woy4mbd.css");
 
 // Base font size property
 html {
+  width: 100%;
+  min-height: 100%;
   font-size: 14px;
 }
 
 body {
-  font-family: stratos-lights, sans-serif !important;
+  font-family: bilo, sans-serif !important;
   font-weight: 400 !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -16,8 +19,8 @@ body {
 h1,
 h2,
 h3 {
-  font-family: orpheuspro, serif !important;
-  font-weight: 500 !important;
+  font-family: ivypresto-display, serif !important;
+  font-weight: 100 !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,7 +29,7 @@ h3 {
 // Center vertically
 .viewport-fill {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .vertical-center {

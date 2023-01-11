@@ -1,19 +1,32 @@
-#bio {
-    font-size: 1em;
+span {
+    font-style: normal;
 }
 
-#portrait {
-    display: flex;
-    max-width: 275px;
-    height: auto;
-    margin: auto;
-    padding: 5px;
-    border: 1px solid;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
+#bio {
+    margin: 8em 10em;
+    font-family: ivypresto-display, serif !important;
+    font-size: 1.45em;
+    font-weight: 300 !important;
+    font-style: italic;
 }
 
 @media (max-width: 768px) {
-    #portrait { display: none; }
+    #bio {
+        margin: 3em 1em;
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 769px) {
+    #bio {
+        margin: 3em 1em;
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    #bio {
+        margin: 8em 10em;
+        font-size: 1.45em;
+    }
 }

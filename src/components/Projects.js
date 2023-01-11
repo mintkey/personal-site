@@ -1,119 +1,76 @@
 import React from 'react';
-import {Container, Grid} from '@material-ui/core';
+import { Container, Grid } from '@mui/material';
 import './Projects.scss';
-import Nanolens from '../assets/nanolens-icons.png';
+import Arrow from '../assets/Arrow.svg'
+import Auxcord from '../assets/auxcord.png';
 import Caffeinated from '../assets/caffeinated.png';
 import Melo from '../assets/melo.png';
-import MathFest2020 from '../assets/mathfest2020.png';
-import FordhamHacks from '../assets/fordhamhacks.png';
 
 const Projects = () => {
     return (
-        <div id="projects">
-            <Container maxWidth="lg">
-                <h1>Projects</h1>
-                <Grid container>
-                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <div className="project-info">
-                            <h2>Nanolens</h2>
-                            <p>App icon redesigns</p>
-                            <ul className="tools">
-                                <li>Figma</li>
-                            </ul>
+        <div>
+            <Container maxWidth="xl">
+                <Grid container spacing={{ xs: 2, sm: 8 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
+                    <Grid item sm={8}>
+                        <div className="project-frame" id="auxcord">
+                            <img src={Auxcord} alt="screenshot of Auxcord landing page"/>
                         </div>
                     </Grid>
-                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <img className="project" src={Nanolens} alt="Nanolens app icons"/>
-                    </Grid>
-                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <div className="project-info">
-                            <h2>Caffeinated</h2>
-                            <p>SwiftUI app</p>
-                            <ul className="tools">
-                                <li>Sketch</li>
-                                <li>SwiftUI</li>
-                            </ul>
+                    <Grid item sm={4}>
+                        <div className="description">
+                            <h2>Auxcord</h2>
+                            <p>
+                                A music editorial site that features a new song and submission every week.
+                                <br/>
+                                <br/>
+                                The idea behind it is to allow people to discover music (or rediscover music
+                                they already know) with the context of people's personal connections to specific songs.
+                            </p>
+                            <br/>
+                            <span className="link arrow">
+                                <a href="https://auxcord.xyz" target="_blank" rel="noopener noreferrer">
+                                    Visit Site&nbsp;&nbsp;<img src={Arrow} />
+                                </a>
+                            </span>
                         </div>
-                    </Grid>
-                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <a
-                            href="https://github.com/mintkey/Caffeinated"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <img
-                                className="project hvr-grow"
-                                src={Caffeinated}
-                                alt="Caffeinated iOS app mockups"/>
-                        </a>
-                    </Grid>
-                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <div className="project-info">
-                            <h2>Melo</h2>
-                            <p>UI/UX design concept for a music-sharing platform</p>
-                            <ul className="tools">
-                                <li>Sketch</li>
-                            </ul>
-                        </div>
-                    </Grid>
-                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <img className="project" src={Melo} alt="UI/UX mockups of Melo"/>
-                    </Grid>
-                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <div className="project-info">
-                            <h2>MathFest 2020</h2>
-                            <p>Website for Fordham University's annual MathFest
-                                event</p>
-                            <ul className="tools">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>AJAX</li>
-                            </ul>
-                        </div>
-                    </Grid>
-                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <a
-                            href="https://faculty.fordham.edu/cbreiner/mathfest.html"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <img
-                                className="project hvr-grow"
-                                src={MathFest2020}
-                                alt="Screenshot of MathFest2020 webpage"/>
-                        </a>
-                    </Grid>
-                    <Grid item xs={0} sm={4} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <div className="project-info">
-                            <h2>FordhamHacks</h2>
-                            <p>Website for Fordham University's first hackathon</p>
-                            <ul className="tools">
-                                <li>React</li>
-                                <li>CSS</li>
-                            </ul>
-                        </div>
-                    </Grid>
-                    <Grid item xs={12} sm={6} data-aos="fade-up" data-aos-easing="ease-in-out">
-                        <a
-                            href="https://hackathon.fordham.edu"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <img
-                                className="project hvr-grow"
-                                src={FordhamHacks}
-                                alt="Screenshot of FordhamHacks webpage"/>
-                        </a>
                     </Grid>
                 </Grid>
-                <Grid container spacing={5}>
-                    <Grid
-                        item
-                        xs={12}
-                        className="link"
-                        data-aos="fade-up"
-                        data-aos-easing="ease-in-out">
-                        <h2>
-                            <a class="hvr-grow" href="https://vsco.co/helendmp/" target="_blank" rel="noopener noreferrer">Photography</a>
-                        </h2>
+
+                <Grid container spacing={{ xs: 2, sm: 8 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
+                    <Grid item sm={8}>
+                        <div className="project-frame">
+                            <img src={Caffeinated} alt="three UI/UX iPhone mockups of Caffeinated"/>
+                        </div>
+                    </Grid>
+                    <Grid item sm={4}>
+                        <div className="description">
+                            <h2>Caffeinated</h2>
+                            <p>
+                                SwiftUI project
+                            </p>
+                            <br/>
+                            <span className="link arrow">
+                                <a href="https://github.com/mintkey/Caffeinated" target="_blank" rel="noopener noreferrer">
+                                    See Code&nbsp;&nbsp;<img src={Arrow} />
+                                </a>
+                            </span>
+                        </div>
+                    </Grid>
+                </Grid>
+
+                <Grid container spacing={{ xs: 2, sm: 8 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
+                    <Grid item sm={8}>
+                        <div className="project-frame">
+                            <img  src={Melo} alt="three isometric UI/UX mockups of Melo"/>
+                        </div>
+                    </Grid>
+                    <Grid item sm={4}>
+                        <div className="description">
+                            <h2>Melo</h2>
+                            <p>
+                                UI/UX concept design
+                            </p>
+                        </div>
                     </Grid>
                 </Grid>
             </Container>

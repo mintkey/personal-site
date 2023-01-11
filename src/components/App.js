@@ -1,77 +1,54 @@
-import React, {useEffect} from 'react';
-import Headroom from 'react-headroom';
-import {Container} from '@material-ui/core';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
+import { Container } from '@mui/material';
+import Lenis from '@studio-freight/lenis'
 import './App.scss';
-import Icon from '../icon';
-import Links from './Links';
 import Intro from './Intro';
-import Projects from './Projects';
 import About from './About';
+import Work from './Work';
+import Projects from './Projects';
+import Socials from './Socials';
 
 function App() {
-    useEffect(() => {
-        AOS.init();
-    });
+    const lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
+        direction: 'vertical', // vertical, horizontal
+        gestureDirection: 'vertical', // vertical, horizontal, both
+        smooth: true,
+        mouseMultiplier: 1,
+        smoothTouch: false,
+        touchMultiplier: 2,
+        infinite: false,
+    })
+    window.lenis = lenis;
+    
+    lenis.on('scroll', ({ scroll, limit, velocity, direction, progress }) => {
+        console.log({ scroll, limit, velocity, direction, progress })
+    })
+    
+    function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+    }
+    
+    requestAnimationFrame(raf)
 
     return (
-        <div className="App">
-            <Headroom>
-                <header>
-                    <h2 id="logo">
-                        <a href="#intro">ㅎㄷ</a>
-                    </h2>
-                    <nav className="inline">
-                        <ul>
-                            <li>
-                                <a href="#projects">Projects</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
-            </Headroom>
-            <Links/> 
-            <Container fluid>
+        <div className="App viewport-fill">
+            <header>
+                <h2 id="logo">
+                    <a href="mailto:helendmpsy@gmail.com">ㅎㄷ</a>
+                </h2>
+            </header>
+            <Container fluid data-lenis-prevent id="frame">
                 <Intro/>
-                <Projects/>
                 <About/>
+                <Work/>
+                <Projects/>
+                <Socials/>
             </Container>
-            <footer id="footer">
-                <div id="mobile-links" className="inline">
-                    <ul>
-                        <li>
-                            <a href="mailto:helendmpsy@gmail.com">
-                                <Icon name="email" width={25}/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/mintkey/" target="_blank" rel="noopener noreferrer">
-                                <Icon name="github" width={25}/>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://linkedin.com/in/helen-dempsey/"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Icon name="linkedin" width={25}/>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://twitter.com/helen_dmp/"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Icon name="twitter" width={25}/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <p>© 2020 Helen Dempsey</p>
+            <footer id="copyright">
+                <p>© 2023 Helen Dempsey</p>
             </footer>
         </div>
     );

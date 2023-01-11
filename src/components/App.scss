@@ -1,21 +1,16 @@
-$text-lightmode: #000;
-$text-darkmode: #ddd1c3;
-$bg-lightmode: #ddd1c3;
-$bg-darkmode: #080808;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+$text: #f5f5f5;
 
 .App {
-  font-weight: 400;
-  color: $text-lightmode;
-
-  h1 {
-    font-weight: 600;
-  }
+  position: sticky;
+  padding: 2em 6em;
+  color: $text;
+  background: url('../assets/gradient.jpg');
+  background-attachment: fixed;
 
   a {
-    color: $text-lightmode;
-    text-decoration: none !important;
+    color: $text;
   }
 }
 
@@ -25,91 +20,52 @@ $bg-darkmode: #080808;
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  padding: 10px 5%;
-  background-color: $bg-lightmode;
-  justify-content: space-between;
-  align-items: center;
-}
-
 #logo {
   font-family: 'Nanum Myeongjo', serif !important;
-  font-weight: 800 !important;
+  font-weight: 400 !important;
   font-size: 2em;
-}
 
-.inline {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  a {
+    text-decoration: none;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
   }
 
-  li {
-    display: inline-block;
-  }
-}
-
-nav {
-  text-transform: uppercase;
-
-  li {
-    padding: 0 1em;
+  a:hover {
+    color: #a3a3a3;
   }
 }
 
-#footer {
-  text-align: center;
-  padding-bottom: 1.25em;
+#frame {
+  height: 78vh;
+  margin: 0.3em 0;
+  border: 1.5px solid #f5f5f5;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
 
-  #mobile-links {
-    display: none;
-    justify-content: center;
-    
-    li { padding: 0 0.5em; }
-  }
+#frame::-webkit-scrollbar {
+  display: none;
+}
+
+#copyright {
+  text-align: right;
 }
 
 @media (max-width: 768px) {
-  #footer #mobile-links {
-    display: flex;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
   .App {
-    color: $text-darkmode;
-    background-color: $bg-darkmode;
+    padding: 2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
-  a {
-    color: $text-darkmode !important;
-  }
-
-  header {
-    background-color: $bg-darkmode;
-  }
-
-  #footer {
-    #mobile-links {
-      filter: invert(90%) sepia(6%) saturate(492%) hue-rotate(352deg) brightness(95%) contrast(89%);
-    }
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .App {
-    color: $text-lightmode;
-    background-color: $bg-lightmode;
-  }
-  
-  a {
-    color: $text-lightmode !important;
-  }
-
-  header {
-    background-color: $bg-lightmode;
+  #frame {
+    height: 85vh;
   }
 }
 
