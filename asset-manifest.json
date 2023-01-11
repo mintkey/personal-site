@@ -1,31 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6033404.chunk.css",
-    "main.js": "/static/js/main.c40cabd2.chunk.js",
-    "main.js.map": "/static/js/main.c40cabd2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
-    "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.058183d8.chunk.js": "/static/js/2.058183d8.chunk.js",
-    "static/js/2.058183d8.chunk.js.map": "/static/js/2.058183d8.chunk.js.map",
+    "main.css": "/static/css/main.eec78fe4.css",
+    "main.js": "/static/js/main.0367a582.js",
+    "static/media/051222_The_Weekend_Agenda.jpg": "/static/media/051222_The_Weekend_Agenda.1acfbbceb2f61301092f.jpg",
+    "static/media/melo.png": "/static/media/melo.44fceb3a4e854f317861.png",
+    "static/media/080422_One_Trend_Two_Ways.jpg": "/static/media/080422_One_Trend_Two_Ways.f6332817c9583f6cba10.jpg",
+    "static/media/052622_Editorial.jpg": "/static/media/052622_Editorial.74af2343c0ded4c90fa3.jpg",
+    "static/media/021522_Prada_VIC.jpg": "/static/media/021522_Prada_VIC.0fd0cb74d47e6cc35b49.jpg",
+    "static/media/031622_Editorial.jpg": "/static/media/031622_Editorial.5d6b3c7804f6c6d8835c.jpg",
+    "static/media/031822_Mens_Dress_Codes.jpg": "/static/media/031822_Mens_Dress_Codes.5d61e7adc337d6754c18.jpg",
+    "static/media/030722_New_Arrivals.jpg": "/static/media/030722_New_Arrivals.3bcef07aaf1a07121dc0.jpg",
+    "static/media/gradient.jpg": "/static/media/gradient.846299046c0f9c66e9e7.jpg",
+    "static/media/081122_Evening_Hour_Edit.jpg": "/static/media/081122_Evening_Hour_Edit.237b518c881fc1119fd7.jpg",
+    "static/media/060922_AMQ_Mens.jpg": "/static/media/060922_AMQ_Mens.2d0a3643af958641d510.jpg",
+    "static/media/caffeinated.png": "/static/media/caffeinated.54102dbb2d0f1f753e1f.png",
+    "static/media/auxcord.png": "/static/media/auxcord.d2c316b4f351766f5fcb.png",
     "index.html": "/index.html",
-    "precache-manifest.0e152704de0a6713c36b82b1675d84a7.js": "/precache-manifest.0e152704de0a6713c36b82b1675d84a7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.f6033404.chunk.css.map": "/static/css/main.f6033404.chunk.css.map",
-    "static/js/2.058183d8.chunk.js.LICENSE.txt": "/static/js/2.058183d8.chunk.js.LICENSE.txt",
-    "static/media/caffeinated.png": "/static/media/caffeinated.302edeac.png",
-    "static/media/fordhamhacks.png": "/static/media/fordhamhacks.beec5811.png",
-    "static/media/mathfest2020.png": "/static/media/mathfest2020.2c13e573.png",
-    "static/media/melo.png": "/static/media/melo.029da9dd.png",
-    "static/media/nanolens-icons.png": "/static/media/nanolens-icons.60798a81.png",
-    "static/media/self-portrait.JPG": "/static/media/self-portrait.88d199cb.JPG"
+    "static/media/Arrow.svg": "/static/media/Arrow.aed2be1736114fe9242b8039b4bb1fc7.svg",
+    "main.eec78fe4.css.map": "/static/css/main.eec78fe4.css.map",
+    "main.0367a582.js.map": "/static/js/main.0367a582.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c9c41ef.js",
-    "static/css/2.4707e12a.chunk.css",
-    "static/js/2.058183d8.chunk.js",
-    "static/css/main.f6033404.chunk.css",
-    "static/js/main.c40cabd2.chunk.js"
+    "static/css/main.eec78fe4.css",
+    "static/js/main.0367a582.js"
   ]
 }
