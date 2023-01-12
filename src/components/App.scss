@@ -7,6 +7,8 @@ $text: #f5f5f5;
   padding: 2em 6em;
   color: $text;
   background: url('../assets/gradient.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 
   a {
@@ -59,13 +61,9 @@ $text: #f5f5f5;
 @media (max-width: 768px) {
   .App {
     padding: 2em;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
   }
 
   #frame {
     height: 85vh;
   }
 }
-

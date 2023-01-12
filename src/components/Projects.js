@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <div>
             <Container maxWidth="xl">
-                <Grid container spacing={{ xs: 2, sm: 8 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
+                <Grid container spacing={{ xs: 2, sm: 0 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
                     <Grid item sm={8}>
                         <div className="project-frame" id="auxcord">
                             <img src={Auxcord} alt="screenshot of Auxcord landing page"/>
@@ -36,7 +36,7 @@ const Projects = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container spacing={{ xs: 2, sm: 8 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
+                <Grid container spacing={{ xs: 2, sm: 0 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
                     <Grid item sm={8}>
                         <div className="project-frame">
                             <img src={Caffeinated} alt="three UI/UX iPhone mockups of Caffeinated"/>
@@ -46,7 +46,7 @@ const Projects = () => {
                         <div className="description">
                             <h2>Caffeinated</h2>
                             <p>
-                                SwiftUI project
+                                A SwiftUI project.
                             </p>
                             <br/>
                             <span className="link arrow">
@@ -58,7 +58,7 @@ const Projects = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container spacing={{ xs: 2, sm: 8 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
+                <Grid container spacing={{ xs: 2, sm: 0 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
                     <Grid item sm={8}>
                         <div className="project-frame">
                             <img  src={Melo} alt="three isometric UI/UX mockups of Melo"/>
@@ -68,7 +68,7 @@ const Projects = () => {
                         <div className="description">
                             <h2>Melo</h2>
                             <p>
-                                UI/UX concept design
+                                A UI/UX concept design.
                             </p>
                         </div>
                     </Grid>
