@@ -1,12 +1,12 @@
 # helen-dempsey.com
 
-Second iteration of my personal website. First iteration can be found at https://hpdempsey.com/
+Hi! Welcome to my personal website.
 
-![Screenshot preview of website](site-preview.png)
+![Screenshot preview of website](site-preview.jpg)
 
 ## Installation and setup
 
-1. Make sure you have the latest versions of `npm` and `react` installed. If you don't have either:
+1. Make sure you have the latest versions of `npm` and `react` installed. If you don't have either, follow these instructions for how to install:
 
 - [npm](https://www.npmjs.com/get-npm)
 - [React](https://reactjs.org/docs/getting-started.html)
@@ -33,7 +33,7 @@ This page explains how to update React: https://www.kirupa.com/react/updating_re
 
 `npm run build`
 
-3. To preview the site as it appears deployed, run
+3. To preview the site as it appears when deployed, run
 
 `npm run serve`
 
