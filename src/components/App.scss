@@ -2,6 +2,17 @@
 
 $text: #f5f5f5;
 
+.bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: url('../assets/gradient.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
 .App {
   width: 100%;
   height: 100%;
@@ -21,13 +32,6 @@ $text: #f5f5f5;
 :root {
   --padw: max(40px, 4vmin);
   --padh: max(60px, 6vmin);
-
-  background: url('../assets/gradient.jpg');
-  background-size: 100vw 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 #logo {

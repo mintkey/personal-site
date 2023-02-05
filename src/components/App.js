@@ -17,7 +17,7 @@ function App() {
         gestureDirection: 'vertical', // vertical, horizontal, both
         smooth: true,
         mouseMultiplier: 1,
-        smoothTouch: false,
+        smoothTouch: true,
         touchMultiplier: 2,
         infinite: false,
     })
@@ -35,34 +35,37 @@ function App() {
     requestAnimationFrame(raf)
 
     return (
-        <div className="App viewport-fill">
-            <header>
-                <h2 id="logo">
-                    <a href="mailto:helendmpsy@gmail.com">ㅎㄷ</a>
-                </h2>
-            </header>
-            <div id="mask">
-                <div id="mask-top"></div>
-                <div id="mask-bottom"></div>
+        <>
+            <div className="bg"></div>
+            <div className="App viewport-fill">
+                <header>
+                    <h2 id="logo">
+                        <a href="mailto:helendmpsy@gmail.com">ㅎㄷ</a>
+                    </h2>
+                </header>
+                <div id="mask">
+                    <div id="mask-top"></div>
+                    <div id="mask-bottom"></div>
+                </div>
+                <div id="frame">
+                    <div className="frame-border" id="border-top"></div>
+                    <div className="frame-border" id="border-right"></div>
+                    <div className="frame-border" id="border-bottom"></div>
+                    <div className="frame-border" id="border-left"></div>
+                </div>
+                <Container maxWidth="xl">
+                    <Intro/>
+                    <About/>
+                    <Work/>
+                    <Projects/>
+                    <Photography/>
+                    <Socials/>
+                </Container>
+                <footer id="copyright">
+                    <p>© 2023 Helen Dempsey</p>
+                </footer>
             </div>
-            <div id="frame">
-                <div className="frame-border" id="border-top"></div>
-                <div className="frame-border" id="border-right"></div>
-                <div className="frame-border" id="border-bottom"></div>
-                <div className="frame-border" id="border-left"></div>
-            </div>
-            <Container maxWidth="xl">
-                <Intro/>
-                <About/>
-                <Work/>
-                <Projects/>
-                <Photography/>
-                <Socials/>
-            </Container>
-            <footer id="copyright">
-                <p>© 2023 Helen Dempsey</p>
-            </footer>
-        </div>
+        </>
     );
 }
 
