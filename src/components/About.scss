@@ -3,36 +3,9 @@ span {
 }
 
 #bio {
-    margin: 8em 10em;
+    margin: auto calc(10vw + 1.8em);
     font-family: ivypresto-display, serif !important;
-    font-size: 1.45em;
+    font-size: clamp(0.813rem, 1.816vw + 0.449rem, 2rem);
     font-weight: 300 !important;
     font-style: italic;
-}
-
-@media (max-width: 768px) {
-    #bio {
-        margin: 3em 1em;
-        font-size: 1.2em;
-    }
-}
-
-@media (min-width: 769px) {
-    #bio {
-        margin: 3em 1em;
-        font-size: 1.2em;
-    }
-}
-
-@media (min-width: 1024px) {
-    #bio {
-        margin: 8em 5em;
-        font-size: 1.45em;
-    }
-}
-
-@media (min-width: 1300px) {
-    #bio {
-        margin: 8em 10em;
-    }
 }

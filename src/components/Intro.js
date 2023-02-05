@@ -4,8 +4,8 @@ import './Intro.scss';
 
 const Intro = () => {
     return (
-        <div>
-            <Container fixed>
+        <div className="viewport-fill vertical-center">
+            <Container>
                 <h1 id="name">
                     Helen<br/>Dempsey
                 </h1>

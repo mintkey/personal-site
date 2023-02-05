@@ -1,11 +1,16 @@
 // Adobe fonts
 @import url("https://use.typekit.net/woy4mbd.css");
 
+html, body {
+  min-height: 100%;
+  height: auto;
+}
+
 // Base font size property
 html {
   width: 100%;
-  min-height: 100%;
-  font-size: 14px;
+  font-size: 16px;
+  scroll-behavior: initial;
 }
 
 body {
@@ -26,6 +31,10 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  font-size: clamp(0.75rem, 0.765vw + 0.597rem, 1.25rem);
+}
+
 // Center vertically
 .viewport-fill {
   width: 100%;
@@ -37,15 +46,6 @@ h3 {
   align-items: center;
 }
 
-// From: https://www.sassmeister.com/gist/7f22e44ace49b5124eec
-@media (min-width: 320px) {
-  html {
-    font-size: calc(13px + 4 * (100vw - 320px) / 1046);
-  }
-}
-
-@media (min-width: 1366px) {
-  html {
-    font-size: 18px;
-  }
+.spacer {
+  padding-bottom: 15em;
 }

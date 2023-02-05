@@ -52,15 +52,15 @@ const Work = () => {
     }
 
     return (
-        <div>
-            <Container maxWidth="xl">
-                <Grid container spacing={{ xs: 2, sm: 8, md: 8 }} direction={{ xs: 'column', sm: 'row', md: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end', md: 'flex-end' }} id="work">
-                    <Grid item xs={6} id="gallery-wrapper">
-                        <div id="gallery-frame">
+        <>
+            <Container className="spacer">
+                <Grid container justifyContent="center" direction="row">
+                    <Grid item xs={8} sm={5} id="gallery-wrapper">
+                        <div data-lenis-prevent id="gallery-frame">
                             <img src={currentEmail.source} alt={currentEmail.title} />
                         </div>
                         <div id="gallery-nav-container">
-                            <p id="gallery-nav">
+                            <p>
                                 {`${index + 1}`}/{`${emails.length}`}&nbsp;
                                 <button className="arrow" onClick={nextEmail}>
                                     <img src={Arrow} />
@@ -68,8 +68,9 @@ const Work = () => {
                             </p>
                         </div>
                     </Grid>
-                    <Grid item xs={6}>
-                        <div id="work-description">
+                    <Grid item xs={8} sm={1}>&nbsp;</Grid>
+                    <Grid xs={8} sm={6} id="work-description">
+                        <div>
                             <h2>Bergdorf Goodman</h2>
                             <p>
                                 From 2021 to 2023, I was a web designer and developer 
@@ -79,12 +80,14 @@ const Work = () => {
                                 and creating graphic designs that have been featured across email,&nbsp;
                                 <a href="https://bergdorfgoodman.com/" target="_blank" rel="noopener noreferrer">bg.com</a>, 
                                 and <a href="https://instagram.com/bergdorfs" target="_blank" rel="noopener noreferrer">@bergdorfs</a>.
+                            </p>
                                 <br/>
-                                <br/>
+                            <p>
                                 As a developer, I followed current email standards and code practices to ensure that 
                                 email HTML was both mobile-optimized and consistent across email platforms.
+                            </p>
                                 <br/>
-                                <br/>
+                            <p>
                                 As a designer, I made sure that layouts were consistent from email to email, 
                                 optimized for the user, and aligned with Bergdorf’s digital brand.
                             </p>
@@ -92,7 +95,7 @@ const Work = () => {
                     </Grid>
                 </Grid>
             </Container>
-        </div>
+        </>
     )
 }
 

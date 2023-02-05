@@ -1,7 +1,7 @@
 #socials {
     display: flex;
-    margin-bottom: 1em;
-    font-size: 1.1em;
+    margin-bottom: 3.5em;
+    font-size: clamp(0.875rem, 0.956vw + 0.684rem, 1.5rem);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -17,5 +17,13 @@
 
     a:hover {
         color: #a3a3a3;
+    }
+
+    @media (max-width: 599px) {
+        margin-bottom: 5em;
+    }
+
+    @media (min-width: 1500px) {
+        margin-bottom: 8em;
     }
 }

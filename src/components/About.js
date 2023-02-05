@@ -4,8 +4,8 @@ import './About.scss';
 
 const About = () => {
     return (
-        <div>
-            <Container>
+        <>
+            <Container className="spacer">
                 <p id="bio">
                     I’m a developer and designer based in NYC with a passion for minimalism and creating clean yet
                     delightful user interfaces. I strongly believe in the beauty of simplicity and that thoughtful design
@@ -18,7 +18,7 @@ const About = () => {
                     and always listening to music.
                 </p>
             </Container>
-        </div>
+        </>
     )
 }
 

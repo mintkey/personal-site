@@ -1,17 +1,13 @@
-#work {
-    margin-bottom: 10em;
-}
-
 #gallery-wrapper {
-    display: inline-block;
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: auto;
 }
 
 #gallery-frame {
-    display: inline-block;
-    text-align: center;
-    width: 50vh;
-    height: 64vh;
+    width: 100%;
+    aspect-ratio: 0.56/1;
     border: 1.5px solid #f5f5f5;
     overflow-y: scroll;
     overscroll-behavior: none;
@@ -23,6 +19,10 @@
         width: 100%;
         object-fit: contain;
     }
+
+    @media (min-width: 600px) {
+        width: 90%;
+    }
 }
   
 #gallery-frame::-webkit-scrollbar {
@@ -31,10 +31,6 @@
 
 #gallery-nav-container {
     margin-top: 5px;
-}
-
-#gallery-nav {
-    float: right;
 }
 
 .arrow {
@@ -58,71 +54,19 @@
 }
 
 #work-description {
-    text-align: left;
-    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 1.55em;
+    text-align: left;
+    justify-content: flex-end;
+
 
     h2 {
-        font-size: 2em;
+        font-size: clamp(1.25rem, 2.677vw + 0.715rem, 3rem);
         font-weight: 300 !important;
     }
-}
 
-@media (max-width: 768px) {
-    #work {
-        margin-bottom: 2em;
-    }
-
-    #gallery-frame {
-        width: 100%;
-        height: 50vh;
-    }
-    
-    .arrow img {
-        height: 7px;
-    }
-
-    #work-description {
-        padding-right: 0.5em;
-
-        h2 {
-            font-size: 1.5em;
-        }
-    }
-  }
-
-@media (min-width: 769px) {
-    #work {
-        margin-bottom: 10em;
-    }
-
-    #gallery-frame {
-        display: inline-block;
-        text-align: right;
-        width: 30vw;
-        height: 64vh;
-    }
-    
-    .arrow img {
-        height: 10px;
-    }
-
-    #work-description {
-        padding-right: 1em;
-        font-size: 0.9em;
-    
-        h2 {
-            font-size: 2em;
-        }
-    }
-}
-
-@media (min-width: 1300px) {
-    #gallery-frame {
-        width: 25vw;
-    }
-
-    #work-description {
-        padding-right: 5em;
+    @media (min-width: 600px) {
+        padding-right: 60px;
     }
 }

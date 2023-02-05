@@ -40,7 +40,17 @@ function App() {
                     <a href="mailto:helendmpsy@gmail.com">ㅎㄷ</a>
                 </h2>
             </header>
-            <Container fluid data-lenis-prevent id="frame">
+            <div id="mask">
+                <div id="mask-top"></div>
+                <div id="mask-bottom"></div>
+            </div>
+            <div id="frame">
+                <div className="frame-border" id="border-top"></div>
+                <div className="frame-border" id="border-right"></div>
+                <div className="frame-border" id="border-bottom"></div>
+                <div className="frame-border" id="border-left"></div>
+            </div>
+            <Container maxWidth="xl">
                 <Intro/>
                 <About/>
                 <Work/>

@@ -3,13 +3,9 @@
 $text: #f5f5f5;
 
 .App {
-  position: sticky;
-  padding: 2em 6em;
+  width: 100%;
+  height: 100%;
   color: $text;
-  background: url('../assets/gradient.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 
   a {
     color: $text;
@@ -22,18 +18,33 @@ $text: #f5f5f5;
   box-sizing: border-box;
 }
 
+:root {
+  --padw: max(40px, 4vmin);
+  --padh: max(60px, 6vmin);
+
+  background: url('../assets/gradient.jpg');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
 #logo {
+  position: fixed;
+  top: calc(var(--padh) - 1.25em);
+  left: var(--padw);
   font-family: 'Nanum Myeongjo', serif !important;
   font-weight: 400 !important;
-  font-size: 2em;
+  font-size: clamp(1.5rem, 0.956vw + 1.309rem, 2.125rem);
+  z-index: 20;
 
   a {
     text-decoration: none;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
   }
 
   a:hover {
@@ -41,29 +52,81 @@ $text: #f5f5f5;
   }
 }
 
-#frame {
-  height: 78vh;
-  margin: 0.3em 0;
-  border: 1.5px solid #f5f5f5;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+#mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 15;
 }
 
-#frame::-webkit-scrollbar {
-  display: none;
+#mask-top, #mask-bottom {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: var(--padh);
+}
+
+#mask-top {
+  top: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 50%);
+}
+
+#mask-bottom {
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(188,192,209,1) 50%, rgba(188,192,209,0) 100%);
+}
+
+#frame {
+  position: fixed;
+  top: var(--padh);
+  right: var(--padw);
+  bottom: var(--padh);
+  left: var(--padw);
+  pointer-events: none;
+  z-index: 20;
+}
+
+.frame-border {
+  position: absolute;
+  background-color: #f5f5f5;
+}
+
+#border-top {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+}
+
+#border-right {
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+}
+
+#border-bottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+}
+
+#border-left {
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
 }
 
 #copyright {
+  position: fixed;
+  right: var(--padw);
+  bottom: calc(var(--padh) - 1.75em);
+  font-size: clamp(0.75rem, 0.382vw + 0.674rem, 1rem);
   text-align: right;
-}
-
-@media (max-width: 768px) {
-  .App {
-    padding: 2em;
-  }
-
-  #frame {
-    height: 85vh;
-  }
+  z-index: 20;
 }

@@ -8,15 +8,16 @@ import Melo from '../assets/melo.png';
 
 const Projects = () => {
     return (
-        <div>
-            <Container maxWidth="xl">
-                <Grid container spacing={{ xs: 2, sm: 0 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
-                    <Grid item sm={8}>
+        <>
+            <Container>
+                <Grid container justifyContent="center" direction="row" className="spacer">
+                    <Grid item xs={8} sm={7} className="project-wrapper">
                         <div className="project-frame" id="auxcord">
                             <img src={Auxcord} alt="screenshot of Auxcord landing page"/>
                         </div>
                     </Grid>
-                    <Grid item sm={4}>
+                    <Grid item xs={8} sm={1}>&nbsp;</Grid>
+                    <Grid item xs={8} sm={4} className="description-wrapper">
                         <div className="description">
                             <h2>Auxcord</h2>
                             <p>
@@ -36,13 +37,14 @@ const Projects = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container spacing={{ xs: 2, sm: 0 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
-                    <Grid item sm={8}>
+                <Grid container justifyContent="center" direction="row" className="spacer">
+                    <Grid item xs={8} sm={7} className="project-wrapper">
                         <div className="project-frame">
                             <img src={Caffeinated} alt="three UI/UX iPhone mockups of Caffeinated"/>
                         </div>
                     </Grid>
-                    <Grid item sm={4}>
+                    <Grid item xs={8} sm={1}>&nbsp;</Grid>
+                    <Grid item xs={8} sm={4} className="description-wrapper">
                         <div className="description">
                             <h2>Caffeinated</h2>
                             <p>
@@ -58,13 +60,14 @@ const Projects = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container spacing={{ xs: 2, sm: 0 }} direction={{ xs: 'column', sm: 'row' }} justifycontent="center" alignItems={{ xs: 'flex-start', sm: 'flex-end' }} className="project">
-                    <Grid item sm={8}>
+                <Grid container justifyContent="center" direction="row" className="spacer">
+                    <Grid item xs={8} sm={7} className="project-wrapper">
                         <div className="project-frame">
                             <img  src={Melo} alt="three isometric UI/UX mockups of Melo"/>
                         </div>
                     </Grid>
-                    <Grid item sm={4}>
+                    <Grid item xs={8} sm={1}>&nbsp;</Grid>
+                    <Grid item xs={8} sm={4} className="description-wrapper">
                         <div className="description">
                             <h2>Melo</h2>
                             <p>
@@ -74,7 +77,7 @@ const Projects = () => {
                     </Grid>
                 </Grid>
             </Container>
-        </div>
+        </>
     )
 }
 
