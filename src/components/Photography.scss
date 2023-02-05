@@ -1,6 +1,6 @@
 #label {
     display: flex;
-    padding-bottom: 6em;
+    margin-bottom: 6em;
     font-size: clamp(1.25rem, 4.971vw + 0.256rem, 4.5rem);
     text-transform: none;
     justify-content: center;
@@ -13,6 +13,6 @@
     }
 
     @media (min-width: 600px) {
-        padding-bottom: 4.5em;
+        margin-bottom: 4.5em;
     }
 }
