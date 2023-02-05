@@ -26,7 +26,8 @@ $text: #f5f5f5;
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 #logo {
