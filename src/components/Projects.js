@@ -60,7 +60,7 @@ const Projects = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container justifyContent="center" direction="row">
+                <Grid container justifyContent="center" direction="row" className="spacer">
                     <Grid item xs={8} sm={7} className="project-wrapper">
                         <div className="project-frame">
                             <img  src={Melo} alt="three isometric UI/UX mockups of Melo"/>

@@ -5,7 +5,7 @@ import './Photography.scss';
 
 const Photography = () => {
     return (
-        <div className="viewport-fill vertical-center">
+        <div className="vertical-center">
             <Container>
                 <span className="link">
                     <a href="https://vsco.co/helendmp" target="_blank" rel="noopener noreferrer" className="vertical-center" id="label">

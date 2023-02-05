@@ -1,13 +1,18 @@
 #label {
     display: flex;
-    font-size: clamp(1.75rem, 4.207vw + 0.909rem, 4.5rem);
+    padding-bottom: 6em;
+    font-size: clamp(1.25rem, 4.971vw + 0.256rem, 4.5rem);
     text-transform: none;
     justify-content: center;
 
     img {
         width: auto;
-        height: 40px;
-        padding-top: 10px;
+        height: clamp(1rem, 3.25vw + 0.35rem, 3.125rem);
+        padding-top: 0.25em;
         align-self: center;
+    }
+
+    @media (min-width: 600px) {
+        padding-bottom: 4.5em;
     }
 }
