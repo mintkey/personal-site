@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    overflow-x: visible;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 #gallery-frame {
@@ -10,6 +11,7 @@
     aspect-ratio: 0.56/1;
     border: 1.5px solid #f5f5f5;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     overscroll-behavior: none;
     scrollbar-width: none;
     -ms-overflow-style: none;
