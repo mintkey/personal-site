@@ -49,6 +49,7 @@ const Work = () => {
     const nextEmail = () => {
         index !== emails.length -1 ? setIndex(index + 1) : setIndex(index = 0);
         currentEmail = emails[index];
+        document.getElementById("gallery-frame").scrollTop = 0;  
     }
 
     return (

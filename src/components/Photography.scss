@@ -1,0 +1,13 @@
+#label {
+    display: flex;
+    font-size: clamp(1.75rem, 4.207vw + 0.909rem, 4.5rem);
+    text-transform: none;
+    justify-content: center;
+
+    img {
+        width: auto;
+        height: 40px;
+        padding-top: 10px;
+        align-self: center;
+    }
+}

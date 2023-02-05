@@ -6,6 +6,7 @@ import Intro from './Intro';
 import About from './About';
 import Work from './Work';
 import Projects from './Projects';
+import Photography from './Photography';
 import Socials from './Socials';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
                 <About/>
                 <Work/>
                 <Projects/>
+                <Photography/>
                 <Socials/>
             </Container>
             <footer id="copyright">
