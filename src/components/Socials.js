@@ -7,7 +7,6 @@ const Socials = () => {
         <div>
             <Container id="socials">
                 <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 4 }}>
-                    <a href="https://twitter.com/helen_dmp" target="_blank" rel="noopener noreferrer">Twitter</a>
                     <a href="https://github.com/mintkey" target="_blank" rel="noopener noreferrer">GitHub</a>
                     <a href="https://linkedin.com/in/helen-dempsey" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </Stack>
