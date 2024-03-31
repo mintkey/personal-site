@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac6fbde1.css",
-    "main.js": "/static/js/main.4fbea085.js",
+    "main.css": "/static/css/main.60d3cbd0.css",
+    "main.js": "/static/js/main.b2979570.js",
     "static/media/051222_The_Weekend_Agenda.jpg": "/static/media/051222_The_Weekend_Agenda.1acfbbceb2f61301092f.jpg",
     "static/media/melo.png": "/static/media/melo.44fceb3a4e854f317861.png",
     "static/media/080422_One_Trend_Two_Ways.jpg": "/static/media/080422_One_Trend_Two_Ways.f6332817c9583f6cba10.jpg",
@@ -12,16 +12,16 @@
     "static/media/030722_New_Arrivals.jpg": "/static/media/030722_New_Arrivals.3bcef07aaf1a07121dc0.jpg",
     "static/media/gradient.jpg": "/static/media/gradient.846299046c0f9c66e9e7.jpg",
     "static/media/081122_Evening_Hour_Edit.jpg": "/static/media/081122_Evening_Hour_Edit.237b518c881fc1119fd7.jpg",
+    "static/media/auxcord.png": "/static/media/auxcord.e120a12bd92d0417f5c4.png",
     "static/media/060922_AMQ_Mens.jpg": "/static/media/060922_AMQ_Mens.2d0a3643af958641d510.jpg",
     "static/media/caffeinated.png": "/static/media/caffeinated.54102dbb2d0f1f753e1f.png",
-    "static/media/auxcord.png": "/static/media/auxcord.d2c316b4f351766f5fcb.png",
     "index.html": "/index.html",
     "static/media/Arrow.svg": "/static/media/Arrow.aed2be1736114fe9242b8039b4bb1fc7.svg",
-    "main.ac6fbde1.css.map": "/static/css/main.ac6fbde1.css.map",
-    "main.4fbea085.js.map": "/static/js/main.4fbea085.js.map"
+    "main.60d3cbd0.css.map": "/static/css/main.60d3cbd0.css.map",
+    "main.b2979570.js.map": "/static/js/main.b2979570.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac6fbde1.css",
-    "static/js/main.4fbea085.js"
+    "static/css/main.60d3cbd0.css",
+    "static/js/main.b2979570.js"
   ]
 }
