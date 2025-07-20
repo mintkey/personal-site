@@ -1,6 +1,6 @@
 #socials {
     display: flex;
-    margin-bottom: 3.5em;
+    padding-bottom: 3.5em;
     font-size: clamp(0.875rem, 0.956vw + 0.684rem, 1.5rem);
     text-align: center;
     justify-content: center;
@@ -20,10 +20,10 @@
     }
 
     @media (max-width: 599px) {
-        margin-bottom: 5em;
+        padding-bottom: 5em;
     }
 
-    @media (min-width: 1500px) {
-        margin-bottom: 8em;
+    @media (min-width: 1440px) {
+        padding-bottom: 8em;
     }
 }
