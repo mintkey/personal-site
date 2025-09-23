@@ -13,8 +13,8 @@ const About = () => {
                     <br />
                     <br />
                     When I’m not working at <a href="https://nytimes.com/" target="_blank" rel="noopener noreferrer"><span>The New York Times</span></a>,
-                    I can be found in a café working on a side project, somewhere in NY shooting
-                    film photography, or training for the New York City Marathon.
+                    I can be found in a café working on a side project, somewhere shooting film photography, or training for the New York
+                    City Marathon with <a href="https://banditrunning.com/" target="_blank" rel="noopener noreferrer"><span>Bandit</span></a>.
                 </p>
             </Container>
         </>

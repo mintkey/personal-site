@@ -56,8 +56,8 @@ function App() {
                 <Container maxWidth="xl">
                     <Intro/>
                     <About/>
-                    <Work/>
-                    <Projects/>
+                    {/* <Work/>
+                    <Projects/> */}
                     <Photography/>
                     <Socials/>
                 </Container>
