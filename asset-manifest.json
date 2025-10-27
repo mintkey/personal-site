@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cdb31b1.css",
-    "main.js": "/static/js/main.7c236231.js",
+    "main.css": "/static/css/main.d5d10308.css",
+    "main.js": "/static/js/main.10e8b77e.js",
     "static/media/50-3.jpg": "/static/media/50-3.1f452e2aeb2c8d2899b9.jpg",
     "static/media/75-4.jpg": "/static/media/75-4.a37b891492de805f078f.jpg",
     "static/media/50-2.jpg": "/static/media/50-2.11ec8791aee6ec0fd362.jpg",
@@ -14,26 +14,13 @@
     "static/media/75-6.jpg": "/static/media/75-6.2e17eb32e3453d755e80.jpg",
     "static/media/75-3.jpg": "/static/media/75-3.f2b6504685d07cd17d34.jpg",
     "static/media/50-1.jpg": "/static/media/50-1.7ca7ace5495a6478ceca.jpg",
-    "static/media/051222_The_Weekend_Agenda.jpg": "/static/media/051222_The_Weekend_Agenda.1acfbbceb2f61301092f.jpg",
-    "static/media/melo.png": "/static/media/melo.44fceb3a4e854f317861.png",
-    "static/media/080422_One_Trend_Two_Ways.jpg": "/static/media/080422_One_Trend_Two_Ways.f6332817c9583f6cba10.jpg",
-    "static/media/052622_Editorial.jpg": "/static/media/052622_Editorial.74af2343c0ded4c90fa3.jpg",
-    "static/media/021522_Prada_VIC.jpg": "/static/media/021522_Prada_VIC.0fd0cb74d47e6cc35b49.jpg",
-    "static/media/031622_Editorial.jpg": "/static/media/031622_Editorial.5d6b3c7804f6c6d8835c.jpg",
-    "static/media/031822_Mens_Dress_Codes.jpg": "/static/media/031822_Mens_Dress_Codes.5d61e7adc337d6754c18.jpg",
-    "static/media/030722_New_Arrivals.jpg": "/static/media/030722_New_Arrivals.3bcef07aaf1a07121dc0.jpg",
     "static/media/gradient.jpg": "/static/media/gradient.846299046c0f9c66e9e7.jpg",
-    "static/media/081122_Evening_Hour_Edit.jpg": "/static/media/081122_Evening_Hour_Edit.237b518c881fc1119fd7.jpg",
-    "static/media/auxcord.png": "/static/media/auxcord.e120a12bd92d0417f5c4.png",
-    "static/media/060922_AMQ_Mens.jpg": "/static/media/060922_AMQ_Mens.2d0a3643af958641d510.jpg",
-    "static/media/caffeinated.png": "/static/media/caffeinated.54102dbb2d0f1f753e1f.png",
     "index.html": "/index.html",
-    "static/media/Arrow.svg": "/static/media/Arrow.aed2be1736114fe9242b8039b4bb1fc7.svg",
-    "main.8cdb31b1.css.map": "/static/css/main.8cdb31b1.css.map",
-    "main.7c236231.js.map": "/static/js/main.7c236231.js.map"
+    "main.d5d10308.css.map": "/static/css/main.d5d10308.css.map",
+    "main.10e8b77e.js.map": "/static/js/main.10e8b77e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cdb31b1.css",
-    "static/js/main.7c236231.js"
+    "static/css/main.d5d10308.css",
+    "static/js/main.10e8b77e.js"
   ]
 }
