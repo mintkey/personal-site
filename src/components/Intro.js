@@ -9,9 +9,6 @@ const Intro = () => {
                 <h1 id="name">
                     Helen<br/>Dempsey
                 </h1>
-                <h3 id="title">
-                    Developer & Designer
-                </h3>
             </Container>
         </div>
     )

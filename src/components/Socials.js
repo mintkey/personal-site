@@ -7,8 +7,8 @@ const Socials = () => {
         <div>
             <Container id="socials">
                 <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 4 }}>
-                    <a href="https://github.com/mintkey" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a href="https://linkedin.com/in/helen-dempsey" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:helendmpsy@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                    <a href="https://instagram.com/helens.film" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </Stack>
             </Container>
         </div>

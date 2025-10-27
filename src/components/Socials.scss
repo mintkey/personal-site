@@ -1,10 +1,11 @@
 #socials {
     display: flex;
-    padding-bottom: 3.5em;
-    font-size: clamp(0.875rem, 0.956vw + 0.684rem, 1.5rem);
-    text-align: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3.5em;
+    font-size: clamp(0.875rem, 0.956vw + 0.684rem, 1.35rem);
+    text-align: center;
+    text-transform: uppercase;
 
     a {
         text-decoration: none;

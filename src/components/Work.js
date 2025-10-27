@@ -64,7 +64,7 @@ const Work = () => {
                             <p>
                                 {`${index + 1}`}/{`${emails.length}`}&nbsp;
                                 <button className="arrow" onClick={nextEmail}>
-                                    <img src={Arrow} />
+                                    <img src={Arrow} alt="arrow" />
                                 </button>
                             </p>
                         </div>

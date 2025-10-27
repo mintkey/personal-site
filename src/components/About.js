@@ -7,13 +7,12 @@ const About = () => {
         <>
             <Container className="spacer">
                 <p id="bio">
-                    I’m a developer and designer based in NYC with a passion for minimalism and creating clean yet
-                    delightful user interfaces. I strongly believe in the beauty of simplicity and that thoughtful design
-                    is integral to a great digital experience.
+                    I’m a film photographer and software engineer based in NYC. I capture the world through film because it challenges the
+                    perfectionist in myself, and it's a way for me to document my perspective in a raw form.
                     <br />
                     <br />
                     When I’m not working at <a href="https://nytimes.com/" target="_blank" rel="noopener noreferrer"><span>The New York Times</span></a>,
-                    I can be found in a café working on a side project, somewhere shooting film photography, or training for the New York
+                    I can be found somewhere shooting, in a café working on a side project, or training for the New York
                     City Marathon with <a href="https://banditrunning.com/" target="_blank" rel="noopener noreferrer"><span>Bandit</span></a>.
                 </p>
             </Container>

@@ -40,7 +40,7 @@ function App() {
             <div className="App viewport-fill">
                 <header>
                     <h2 id="logo">
-                        <a href="mailto:helendmpsy@gmail.com">ㅎㄷ</a>
+                        <a href="/">ㅎㄷ</a>
                     </h2>
                 </header>
                 <div id="mask">
@@ -56,13 +56,11 @@ function App() {
                 <Container maxWidth="xl">
                     <Intro/>
                     <About/>
-                    {/* <Work/>
-                    <Projects/> */}
                     <Photography/>
                     <Socials/>
                 </Container>
                 <footer id="copyright">
-                    <p>© 2023 Helen Dempsey</p>
+                    <p>© 2025 Helen Dempsey</p>
                 </footer>
             </div>
         </>

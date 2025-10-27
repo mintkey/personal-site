@@ -1,18 +1,41 @@
-#label {
-    display: flex;
-    margin-bottom: 6em;
-    font-size: clamp(1.25rem, 4.971vw + 0.256rem, 4.5rem);
-    text-transform: none;
-    justify-content: center;
-
-    img {
-        width: auto;
-        height: clamp(1rem, 3.25vw + 0.35rem, 3.125rem);
-        padding-top: 0.25em;
-        align-self: center;
-    }
-
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    
     @media (min-width: 600px) {
-        margin-bottom: 4.5em;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
     }
+    
+    @media (min-width: 1200px) {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+    }
+}
+
+.grid-item {
+    position: relative;
+    
+    img {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        border: 1.5px solid #fff;
+    }
+}
+
+.section-title, 
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 1.75em;
+    font-size: 0.95em;
 }
