@@ -30,7 +30,7 @@ const Projects = () => {
                             <br/>
                             <span className="link arrow">
                                 <a href="https://auxcord.xyz" target="_blank" rel="noopener noreferrer">
-                                    Visit Site&nbsp;&nbsp;<img src={Arrow} />
+                                    Visit Site&nbsp;&nbsp;<img src={Arrow} alt="arrow" />
                                 </a>
                             </span>
                         </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                             <br/>
                             <span className="link arrow">
                                 <a href="https://github.com/mintkey/Caffeinated" target="_blank" rel="noopener noreferrer">
-                                    See Code&nbsp;&nbsp;<img src={Arrow} />
+                                    See Code&nbsp;&nbsp;<img src={Arrow} alt="arrow" />
                                 </a>
                             </span>
                         </div>

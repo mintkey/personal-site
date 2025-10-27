@@ -4,8 +4,6 @@ import Lenis from '@studio-freight/lenis'
 import './App.scss';
 import Intro from './Intro';
 import About from './About';
-import Work from './Work';
-import Projects from './Projects';
 import Photography from './Photography';
 import Socials from './Socials';
 
