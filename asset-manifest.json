@@ -1,7 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.860b4ded.css",
-    "main.js": "/static/js/main.62834c4d.js",
+    "main.css": "/static/css/main.8cdb31b1.css",
+    "main.js": "/static/js/main.7c236231.js",
+    "static/media/50-3.jpg": "/static/media/50-3.1f452e2aeb2c8d2899b9.jpg",
+    "static/media/75-4.jpg": "/static/media/75-4.a37b891492de805f078f.jpg",
+    "static/media/50-2.jpg": "/static/media/50-2.11ec8791aee6ec0fd362.jpg",
+    "static/media/50-4.jpg": "/static/media/50-4.6bc14694d129bb9a116c.jpg",
+    "static/media/125-2.jpg": "/static/media/125-2.8d6c4af0fa4f1fa009d4.jpg",
+    "static/media/75-5.jpg": "/static/media/75-5.f96de317917abc413498.jpg",
+    "static/media/100-2.jpg": "/static/media/100-2.766ad7f827e5950738f4.jpg",
+    "static/media/100.jpg": "/static/media/100.ae1ed1d09a006519c710.jpg",
+    "static/media/75-2.jpg": "/static/media/75-2.0ebcb76a64e70c1327f5.jpg",
+    "static/media/75-6.jpg": "/static/media/75-6.2e17eb32e3453d755e80.jpg",
+    "static/media/75-3.jpg": "/static/media/75-3.f2b6504685d07cd17d34.jpg",
+    "static/media/50-1.jpg": "/static/media/50-1.7ca7ace5495a6478ceca.jpg",
     "static/media/051222_The_Weekend_Agenda.jpg": "/static/media/051222_The_Weekend_Agenda.1acfbbceb2f61301092f.jpg",
     "static/media/melo.png": "/static/media/melo.44fceb3a4e854f317861.png",
     "static/media/080422_One_Trend_Two_Ways.jpg": "/static/media/080422_One_Trend_Two_Ways.f6332817c9583f6cba10.jpg",
@@ -17,11 +29,11 @@
     "static/media/caffeinated.png": "/static/media/caffeinated.54102dbb2d0f1f753e1f.png",
     "index.html": "/index.html",
     "static/media/Arrow.svg": "/static/media/Arrow.aed2be1736114fe9242b8039b4bb1fc7.svg",
-    "main.860b4ded.css.map": "/static/css/main.860b4ded.css.map",
-    "main.62834c4d.js.map": "/static/js/main.62834c4d.js.map"
+    "main.8cdb31b1.css.map": "/static/css/main.8cdb31b1.css.map",
+    "main.7c236231.js.map": "/static/js/main.7c236231.js.map"
   },
   "entrypoints": [
-    "static/css/main.860b4ded.css",
-    "static/js/main.62834c4d.js"
+    "static/css/main.8cdb31b1.css",
+    "static/js/main.7c236231.js"
   ]
 }
